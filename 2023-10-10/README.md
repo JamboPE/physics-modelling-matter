@@ -15,6 +15,6 @@ Expected value: 1043.15K (Source: [https://mse.engin.umich.edu/](https://mse.eng
 The value obtained from the fit is not close enough to the expected value to be considered accurate as the expected value is outside the uncertainty range of the calculated value.
 
 ### 3) **What physical property of magnets determines the Curie temperature?**
-       
+The alignment of the magnetic dipoloes in the material
 
 ### 4) **What effect do you think turning off the periodic boundaries will have on the Curie temperature and why?**
