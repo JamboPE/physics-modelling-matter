@@ -1,6 +1,9 @@
 # **Modelling Matter - Computer Lab 2**
 *10th October 2023*
 
+### **Graph:**
+![test](https://github.com/JamboPE/blob/main/plotted_graph.jpg?raw=true)
+
 ## Learning Objectives
 
 ### **1) What value of the Curie temperature did you obtain by fitting?**
