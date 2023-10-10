@@ -1,0 +1,23 @@
+#---------------------------------------------------
+# VAMPIRE material for bulk Fe
+#---------------------------------------------------
+#---------------------------------------------------
+# Number of Materials
+#---------------------------------------------------
+material:num-materials = 1
+#---------------------------------------------------
+# Material 1 iron Generic
+#---------------------------------------------------
+material[1]:material-name = iron
+material[1]:damping-constant = 1.0
+material[1]:exchange-matrix[1] = 7.050e-21
+material[1]:atomic-spin-moment = 2.22 !muB
+material[1]:cubic-anisotropy-constant = 5.65e-25
+material[1]:material-element = Fe
+
+material[1]:exchange-matrix[1] = 7.050e-21
+material[1]:cubic-anisotropy-constant = 5.65e-25
+material[1]:atomic-spin-moment=2.22 !muB
+
+material:num-materials = 1
+

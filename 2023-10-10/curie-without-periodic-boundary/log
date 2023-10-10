@@ -1,0 +1,50 @@
+10-10-2023 [11:59:35] Logfile opened
+10-10-2023 [11:59:35] Executable : vampire-serial
+10-10-2023 [11:59:35] Host name  : SurfacePro:
+10-10-2023 [11:59:35] Directory  : /home/jambo/Coding/Uni/physics-modelling-matter/2023-10-10/curie-without-periodic-boundary
+10-10-2023 [11:59:35] Process ID : 3528
+10-10-2023 [11:59:35] Version    : 6.0.0
+10-10-2023 [11:59:35] Githash    : fdea6f2b8508fa7f033a61dc62aa419daf0d5274
+10-10-2023 [11:59:35] Opening main input file "input".
+10-10-2023 [11:59:35] Parsing system parameters from main input file.
+10-10-2023 [11:59:35] Opening material file "Fe.mat".
+10-10-2023 [11:59:35] Parsing material file for parameters.
+10-10-2023 [11:59:35] Opening material file "Fe.mat".
+10-10-2023 [11:59:35] Parsing material file for parameters.
+10-10-2023 [11:59:35] Generating neighbour interactions for a lattice of 3 x 3 x 3 unit cells for neighbour calculation
+10-10-2023 [11:59:35] Calculating alloy properties of system
+10-10-2023 [11:59:35] Determining atomic composition:
+10-10-2023 [11:59:35] Material 1 iron makes up 100 % of all atoms ( 10745 atoms )
+10-10-2023 [11:59:35] Memory required for neighbourlist calculation:0.093312 MB
+10-10-2023 [11:59:35] Allocating memory for supercell array in neighbourlist calculation
+10-10-2023 [11:59:35] 	Allocating memory done
+10-10-2023 [11:59:35] Populating supercell array for neighbourlist calculation...
+10-10-2023 [11:59:35] 	Populating supercell array completed
+10-10-2023 [11:59:35] Memory required for neighbour list:0.746496 MB
+10-10-2023 [11:59:35] Generating neighbour list...
+10-10-2023 [11:59:35] 	Neighbour list calculation complete
+10-10-2023 [11:59:35] Deallocating supercell array for neighbour list calculation
+10-10-2023 [11:59:35] 	Supercell array deallocated
+10-10-2023 [11:59:35] Copying system data to optimised data structures.
+10-10-2023 [11:59:35] Number of atoms generated on rank 0: 10745
+10-10-2023 [11:59:35] Memory required for copying to performance array on rank 0: 1.63324 MB RAM
+10-10-2023 [11:59:35] Identifying surface atoms using global threshold value of 8
+10-10-2023 [11:59:35] 1736 surface atoms found.
+10-10-2023 [11:59:35] Memory required for creation of 1D neighbour list on rank 0: 0.17192 MB RAM
+10-10-2023 [11:59:35] Initialising data structures for exchange calculation.
+10-10-2023 [11:59:35] Unrolled exchange template requires 0.628864MB RAM
+10-10-2023 [11:59:35] Macrocell size = 10 Angstroms
+10-10-2023 [11:59:35] Macrocells in x,y,z: 6	6	6
+10-10-2023 [11:59:35] Total number of macrocells: 216
+10-10-2023 [11:59:35] Memory required for macrocell arrays: 0.01728 MB
+10-10-2023 [11:59:35] Number of local macrocells on rank 0: 125
+10-10-2023 [11:59:35] Number of atoms generated: 10745
+10-10-2023 [11:59:35] Initialising data structures for anisotropy calculation.
+10-10-2023 [11:59:35] Initialising statistics module
+10-10-2023 [11:59:35] Starting Simulation with Program Curie-Temperature...
+10-10-2023 [12:01:48] Simulation run time [s]: 133.125
+10-10-2023 [12:01:48] Monte Carlo statistics:
+10-10-2023 [12:01:48] 	Total moves: 7.0917e+08
+10-10-2023 [12:01:48] 	53.9398% Accepted
+10-10-2023 [12:01:48] 	46.0602% Rejected
+10-10-2023 [12:01:48] Simulation ended gracefully.
