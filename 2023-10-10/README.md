@@ -4,7 +4,7 @@
 ## Learning Objectives
 
 ### 1) What value of the Curie temperature did you obtain by fitting?
-       `T_{c}`(1113.88 `$\pm$` 9.71, 0.8718%)K
+`T_{c}`(1113.88 `$\pm$` 9.71, 0.8718%)K
        
 ### 2) How close is this value to the expected value for iron?
        Expected value: 1043.15K (Source: [https://mse.engin.umich.edu/](https://mse.engin.umich.edu/internal/demos/curie-point-of-iron), Accessed Oct 2023)
