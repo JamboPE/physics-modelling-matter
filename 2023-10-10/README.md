@@ -2,7 +2,7 @@
 *10th October 2023*
 
 ### **Graph:**
-![test](https://github.com/JamboPE/blob/main/plotted_graph.jpg?raw=true)
+![test](https://github.com/JamboPE/physics-modelling-matter/blob/main/2023-10-10/curie/Plotted_graph.png?raw=true)
 
 ## Learning Objectives
 
