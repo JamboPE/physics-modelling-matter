@@ -18,3 +18,16 @@ The value obtained from the fit is not close enough to the expected value to be 
 The alignment of the magnetic dipoloes in the material
 
 ### 4) **What effect do you think turning off the periodic boundaries will have on the Curie temperature and why?**
+Periodic boundary is where the edges somewhat "loop", think of it as though the left wall is a portal to the right wall and vice versa (loosely).
+
+Hypothesis:
+Turning off the periodic boundary will cause the simulation to simulate the properties of a smaller system of material as opposed to a bulk system, this would mean there are less magnetic dipoles to align and would therefore lower the Curie temperature.
+
+Result after commenting out the following to disable the periodic boundaries:
+```
+#create:periodic-boundaries-x
+#create:periodic-boundaries-y
+#create:periodic-boundaries-z
+```
+T<sub>c</sub> = (1032.52 ± 6.523, 0.6317%)
+Hypothesis was correct as this value is less than before
