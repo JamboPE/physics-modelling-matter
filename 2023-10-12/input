@@ -1,0 +1,45 @@
+#------------------------------------------
+# Creation attributes
+#------------------------------------------
+create:crystal-structure = fcc
+create:periodic-boundaries-x
+create:periodic-boundaries-y
+create:periodic-boundaries-z
+#------------------------------------------
+# System Dimensions
+#------------------------------------------
+dimensions:unit-cell-size = 3.524 !A
+dimensions:system-size-x = 5.0 !nm
+dimensions:system-size-y = 5.0 !nm
+dimensions:system-size-z = 5.0 !nm
+#------------------------------------------
+# Material File
+#------------------------------------------
+material:file = Ni.mat
+#------------------------------------------
+# Simulation attributes
+#------------------------------------------
+sim:temperature = 300.0
+sim:equilibration-temperature = 300.0
+sim:preconditioning-steps = 1000
+sim:equilibration-time-steps = 10000
+sim:total-time-steps = 100000
+sim:time-steps-increment = 10
+#------------------------------------------
+# Laser parameters
+#------------------------------------------
+sim:laser-pulse-power = 5.0
+sim:laser-pulse-temporal-profile = two-temperature
+#------------------------------------------
+# Program and integrator details
+#------------------------------------------
+sim:program = laser-pulse
+sim:integrator = llg-heun
+sim:time-step = 0.1 !fs
+#------------------------------------------
+# data output
+#------------------------------------------
+output:real-time
+output:electron-temperature
+output:phonon-temperature
+output:magnetisation-length

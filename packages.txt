@@ -1,0 +1,4 @@
+build
+build-essential
+gnuplot-x11
+mpi-default-dev
