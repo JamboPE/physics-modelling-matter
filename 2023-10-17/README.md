@@ -6,6 +6,7 @@ github.com/lammps/lammps
 `git clone --depth 5 https://github.com/lammps/lammps.git`
 
 Compile
+The executable was too big to upload :(
 `make mpi -j 4`
 
 Run:
