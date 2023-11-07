@@ -1,0 +1,56 @@
+25-10-2023 [02:59:14] Logfile opened
+25-10-2023 [02:59:14] Executable : vampire-parallel
+25-10-2023 [02:59:14] Host name  : teaching0:
+25-10-2023 [02:59:14] Directory  : /home/userfs/j/jdpe500/Documents/Coding/ATT/physics-modelling-matter/wk5-mini-assignment
+25-10-2023 [02:59:14] Process ID : 448410
+25-10-2023 [02:59:14] Version    : 6.0.0
+25-10-2023 [02:59:14] Githash    : 8998ce88a661be9a92d539e56c303820261b80dd
+25-10-2023 [02:59:14] Opening main input file "input".
+25-10-2023 [02:59:14] Parsing system parameters from main input file.
+25-10-2023 [02:59:14] Opening material file "Fe3O4.mat".
+25-10-2023 [02:59:14] Parsing material file for parameters.
+25-10-2023 [02:59:14] Generating neighbour interactions for a lattice of 3 x 3 x 3 unit cells for neighbour calculation
+25-10-2023 [02:59:14] System decomposed into 2 x 2 x 4 processors for parallel execution
+25-10-2023 [02:59:14] Calculating alloy properties of system
+25-10-2023 [02:59:14] Determining atomic composition:
+25-10-2023 [02:59:14] Material 1 iron makes up 14.2857 % of all atoms ( 1728 atoms )
+25-10-2023 [02:59:14] Material 2 oxygen makes up 85.7143 % of all atoms ( 10368 atoms )
+25-10-2023 [02:59:14] Copying halo atoms to other processors...
+25-10-2023 [02:59:14] 	done!
+25-10-2023 [02:59:14] Memory required for neighbourlist calculation (each cpu):0 MB
+25-10-2023 [02:59:14] Memory required for neighbourlist calculation (all cpus):0 MB
+25-10-2023 [02:59:14] Allocating memory for supercell array in neighbourlist calculation
+25-10-2023 [02:59:14] 	Allocating memory done
+25-10-2023 [02:59:14] Populating supercell array for neighbourlist calculation...
+25-10-2023 [02:59:14] 	Populating supercell array completed
+25-10-2023 [02:59:14] Memory required for neighbour list (each cpu):0 MB
+25-10-2023 [02:59:14] Memory required for neighbour list (all cpus):0 MB
+25-10-2023 [02:59:14] Generating neighbour list...
+25-10-2023 [02:59:14] 	Neighbour list calculation complete
+25-10-2023 [02:59:14] Deallocating supercell array for neighbour list calculation
+25-10-2023 [02:59:14] 	Supercell array deallocated
+25-10-2023 [02:59:14] Number of core  atoms: 526
+25-10-2023 [02:59:14] Number of local atoms: 756
+25-10-2023 [02:59:14] Number of total atoms: 1124
+25-10-2023 [02:59:14] Copying system data to optimised data structures.
+25-10-2023 [02:59:14] Number of atoms generated on rank 0: 756
+25-10-2023 [02:59:14] Memory required for copying to performance array on rank 0: 0.170848 MB RAM
+25-10-2023 [02:59:14] Identifying surface atoms using global threshold value of 8
+25-10-2023 [02:59:14] 432 surface atoms found.
+25-10-2023 [02:59:14] Memory required for creation of 1D neighbour list on rank 0: 0.017984 MB RAM
+25-10-2023 [02:59:14] Initialising data structures for exchange calculation.
+25-10-2023 [02:59:14] Unrolled exchange template requires 0.03456MB RAM
+25-10-2023 [02:59:14] Macrocell size = 10 Angstroms
+25-10-2023 [02:59:14] Macrocells in x,y,z: 6	6	6
+25-10-2023 [02:59:14] Total number of macrocells: 216
+25-10-2023 [02:59:14] Memory required for macrocell arrays: 0.01728 MB
+25-10-2023 [02:59:14] Number of local macrocells on rank 0: 18
+25-10-2023 [02:59:14] Total number of atoms (all CPUs): 12096
+25-10-2023 [02:59:14] Initialising data structures for anisotropy calculation.
+25-10-2023 [02:59:14] Initialising statistics module
+25-10-2023 [02:59:14] Time for initialisation: 0.0462313
+25-10-2023 [02:59:14] Preconditioning spin configuration at T = 300 K ...
+25-10-2023 [02:59:14] Preconditioning completed in 0.349808 s
+25-10-2023 [02:59:14] Starting Simulation with Program Temperature-Pulse...
+25-10-2023 [02:59:39] Simulation run time [s]: 24.8633
+25-10-2023 [02:59:39] Simulation ended gracefully.
